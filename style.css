@@ -1,0 +1,67 @@
+h1 {color: bisque;
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;}
+body {background-color: rgb(40, 29, 29);
+    background-image: url( https://i.sstatic.net/jGlzr.png);}
+.Library-container  {   
+      display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.login-container  {   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+button {
+    background-color: bisque;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    color: bisque;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-size: contain;
+background-color: black;
+    }
+input {
+    box-sizing: unset;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+a { font-style: italic;
+   color: bisque;
+   font-size: 20px;
+   background-color: azure;}
+   p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    background-color: bisque;
+   }
